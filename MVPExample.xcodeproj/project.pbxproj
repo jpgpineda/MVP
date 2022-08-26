@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		3909F2F328A694C600ED383D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3909F2F228A694C600ED383D /* AppDelegate.swift */; };
 		3909F2F528A694C600ED383D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3909F2F428A694C600ED383D /* SceneDelegate.swift */; };
-		3909F2F728A694C600ED383D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3909F2F628A694C600ED383D /* ViewController.swift */; };
 		3909F2FA28A694C600ED383D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3909F2F828A694C600ED383D /* Main.storyboard */; };
 		3909F2FC28A694C700ED383D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3909F2FB28A694C700ED383D /* Assets.xcassets */; };
 		3909F2FF28A694C700ED383D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3909F2FD28A694C700ED383D /* LaunchScreen.storyboard */; };
+		3909F30A28A694F200ED383D /* ClientsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3909F30928A694F200ED383D /* ClientsModel.swift */; };
+		3909F30C28A6954200ED383D /* ClientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3909F30B28A6954200ED383D /* ClientsViewController.swift */; };
+		3909F30E28A695B000ED383D /* ClientPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3909F30D28A695B000ED383D /* ClientPresenter.swift */; };
+		396A63BA28AC66CA00B30AB7 /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396A63B928AC66CA00B30AB7 /* School.swift */; };
+		39E5B3CD28ADB42E0086E5BC /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 39E5B3CC28ADB42E0086E5BC /* loading.json */; };
+		39E5B3CF28ADB5A80086E5BC /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E5B3CE28ADB5A80086E5BC /* LoadingViewController.swift */; };
+		9363852B06F248B750693EA5 /* Pods_MVPExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDE9D227BEA6AAEB4BD8F88E /* Pods_MVPExample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2FD6D8DBE3B867220ED41DF2 /* Pods-MVPExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVPExample.debug.xcconfig"; path = "Target Support Files/Pods-MVPExample/Pods-MVPExample.debug.xcconfig"; sourceTree = "<group>"; };
 		3909F2EF28A694C600ED383D /* MVPExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVPExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3909F2F228A694C600ED383D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3909F2F428A694C600ED383D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3909F2F628A694C600ED383D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3909F2F928A694C600ED383D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3909F2FB28A694C700ED383D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3909F2FE28A694C700ED383D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3909F30028A694C700ED383D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3909F30928A694F200ED383D /* ClientsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientsModel.swift; sourceTree = "<group>"; };
+		3909F30B28A6954200ED383D /* ClientsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientsViewController.swift; sourceTree = "<group>"; };
+		3909F30D28A695B000ED383D /* ClientPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientPresenter.swift; sourceTree = "<group>"; };
+		396A63B928AC66CA00B30AB7 /* School.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = School.swift; sourceTree = "<group>"; };
+		39E5B3CC28ADB42E0086E5BC /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
+		39E5B3CE28ADB5A80086E5BC /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		82C24946E1CD7E36C4F9F25C /* Pods-MVPExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVPExample.release.xcconfig"; path = "Target Support Files/Pods-MVPExample/Pods-MVPExample.release.xcconfig"; sourceTree = "<group>"; };
+		CDE9D227BEA6AAEB4BD8F88E /* Pods_MVPExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVPExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9363852B06F248B750693EA5 /* Pods_MVPExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +57,8 @@
 			children = (
 				3909F2F128A694C600ED383D /* MVPExample */,
 				3909F2F028A694C600ED383D /* Products */,
+				DCB240F73A4C618EB5F87D8C /* Pods */,
+				DD9B7CF07CD70123B22F3B81 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +73,77 @@
 		3909F2F128A694C600ED383D /* MVPExample */ = {
 			isa = PBXGroup;
 			children = (
+				39E5B3CA28ADB40F0086E5BC /* Assets */,
+				3909F30828A694E500ED383D /* Model */,
+				3909F30728A694DE00ED383D /* View */,
+				3909F30628A694D300ED383D /* Presenter */,
 				3909F2F228A694C600ED383D /* AppDelegate.swift */,
 				3909F2F428A694C600ED383D /* SceneDelegate.swift */,
-				3909F2F628A694C600ED383D /* ViewController.swift */,
 				3909F2F828A694C600ED383D /* Main.storyboard */,
 				3909F2FB28A694C700ED383D /* Assets.xcassets */,
 				3909F2FD28A694C700ED383D /* LaunchScreen.storyboard */,
 				3909F30028A694C700ED383D /* Info.plist */,
 			);
 			path = MVPExample;
+			sourceTree = "<group>";
+		};
+		3909F30628A694D300ED383D /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				3909F30D28A695B000ED383D /* ClientPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		3909F30728A694DE00ED383D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3909F30B28A6954200ED383D /* ClientsViewController.swift */,
+				39E5B3CE28ADB5A80086E5BC /* LoadingViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3909F30828A694E500ED383D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3909F30928A694F200ED383D /* ClientsModel.swift */,
+				396A63B928AC66CA00B30AB7 /* School.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		39E5B3CA28ADB40F0086E5BC /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				39E5B3CB28ADB4180086E5BC /* JSON */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		39E5B3CB28ADB4180086E5BC /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				39E5B3CC28ADB42E0086E5BC /* loading.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		DCB240F73A4C618EB5F87D8C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2FD6D8DBE3B867220ED41DF2 /* Pods-MVPExample.debug.xcconfig */,
+				82C24946E1CD7E36C4F9F25C /* Pods-MVPExample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DD9B7CF07CD70123B22F3B81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDE9D227BEA6AAEB4BD8F88E /* Pods_MVPExample.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +153,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3909F30328A694C700ED383D /* Build configuration list for PBXNativeTarget "MVPExample" */;
 			buildPhases = (
+				D0ADB2AD728A0C9EC111CD7D /* [CP] Check Pods Manifest.lock */,
 				3909F2EB28A694C600ED383D /* Sources */,
 				3909F2EC28A694C600ED383D /* Frameworks */,
 				3909F2ED28A694C600ED383D /* Resources */,
+				C2DB7A09D04C260F1D5DAFAC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,19 +209,66 @@
 				3909F2FF28A694C700ED383D /* LaunchScreen.storyboard in Resources */,
 				3909F2FC28A694C700ED383D /* Assets.xcassets in Resources */,
 				3909F2FA28A694C600ED383D /* Main.storyboard in Resources */,
+				39E5B3CD28ADB42E0086E5BC /* loading.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C2DB7A09D04C260F1D5DAFAC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MVPExample/Pods-MVPExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MVPExample/Pods-MVPExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MVPExample/Pods-MVPExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0ADB2AD728A0C9EC111CD7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MVPExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3909F2EB28A694C600ED383D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3909F2F728A694C600ED383D /* ViewController.swift in Sources */,
+				39E5B3CF28ADB5A80086E5BC /* LoadingViewController.swift in Sources */,
+				3909F30A28A694F200ED383D /* ClientsModel.swift in Sources */,
+				396A63BA28AC66CA00B30AB7 /* School.swift in Sources */,
 				3909F2F328A694C600ED383D /* AppDelegate.swift in Sources */,
+				3909F30E28A695B000ED383D /* ClientPresenter.swift in Sources */,
 				3909F2F528A694C600ED383D /* SceneDelegate.swift in Sources */,
+				3909F30C28A6954200ED383D /* ClientsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +412,7 @@
 		};
 		3909F30428A694C700ED383D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FD6D8DBE3B867220ED41DF2 /* Pods-MVPExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +441,7 @@
 		};
 		3909F30528A694C700ED383D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82C24946E1CD7E36C4F9F25C /* Pods-MVPExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
